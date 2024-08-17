@@ -1,0 +1,27 @@
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  h1{
+    color: #ffe866;
+    font-size: 3rem;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 100px;
+  }
+  
+
+  #player1score {
+    left:35%;
+  }
+  #player2score {
+    right:35%;
+  }
